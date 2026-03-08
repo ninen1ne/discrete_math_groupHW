@@ -1,5 +1,6 @@
 public class Exam11 {
     public static void main(String[] args) {
+        // ----- STACK SECTION -----
         String infixExpression = "( 15 + 5 ) * 4 - 20 / 2";
         String postfixExpression = "15 5 + 4 * 20 2 / -";
         String prefixExpression = "- * + 15 5 4 / 20 2";
@@ -18,6 +19,8 @@ public class Exam11 {
         eval.setExpression(prefixExpression);
         System.out.println("3. Prefix Input  : " + prefixExpression);
         System.out.println("   Calculated    : " + eval.evaluatePrefix());
+
+        // ----- GRAPH SECTION -----
     }
 
 }
