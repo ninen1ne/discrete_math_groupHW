@@ -1,4 +1,4 @@
-public class Exam11 {
+public class Exam9 {
     public static void main(String[] args) {
         // ----- STACK SECTION -----
         String infixExpression = "( 15 + 5 ) * 4 - 20 / 2";
