@@ -21,6 +21,8 @@ public class Exam11 {
         System.out.println("   Calculated    : " + eval.evaluatePrefix());
 
         // ----- GRAPH SECTION -----
+        InputHandler input = new InputHandler();
+        input.start();
     }
 
 }
