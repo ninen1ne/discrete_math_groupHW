@@ -1,4 +1,6 @@
+
 public class Edge implements Comparable<Edge> {
+
     String edgeId;
     String u, v;
     int weight;
@@ -12,7 +14,7 @@ public class Edge implements Comparable<Edge> {
 
     @Override
     public int compareTo(Edge other) {
-        return this.weight - other.weight;
+        return this.weight - other.weight; // gay
     }
 
     @Override
